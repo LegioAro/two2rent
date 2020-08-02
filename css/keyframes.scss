@@ -1,0 +1,44 @@
+//появление
+@keyframes appearance {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+//тень
+@keyframes shadow {
+    0% {
+        box-shadow: none;
+    }
+    100% {
+        box-shadow: 0 0 15px #000000;
+    }
+}
+
+//выдвижение слева
+@keyframes advance-left {
+    0% {
+        transform: translateX(-500px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+//выдвижение справа
+@keyframes advance-right {
+    0% {
+        transform: translateX(500px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
