@@ -1,1 +1,1 @@
-# two2rent
+https://legioaro.github.io/two2rent/
